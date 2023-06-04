@@ -1,0 +1,61 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    height: 95vh;
+    width: 100vw;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+#formulario {
+    text-align: center;
+}
+
+.nome {
+    margin-right: 170px;
+}
+
+.campo {
+    padding: 10px;
+}
+
+#emailtxt {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#senhatxt {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+#botao-login {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+button {
+    padding: 10px;
+    width: 220px;
+    border-radius: 5px;
+    border: 1px solid black;
+    cursor: pointer;
+}

@@ -10,23 +10,28 @@
 <body>
     <h1>Faça o seu Login</h1>
 
-        <div id="formulario">
-            <form action="" method="post" autocomplete="on">
+    <div id="formulario">
+        <form action="" method="post" autocomplete="on">
 
-                <div class="campo">
-                    <label class="nome" for="emailtxt">E-mail</label> <br>
-                    <input type="email" name="" id="emailtxt" autocomplete="email" required>
-                </div>
+            <div class="campo">
+                <label class="nome" for="emailtxt">E-mail</label> <br>
+                <input type="email" name="" id="emailtxt" autocomplete="email" required>
+            </div>
 
-                <div class="campo">
-                    <label class="nome" for="senhatxt">Senha</label> <br>
-                    <input type="password" name="" id="senhatxt" required>
-                </div>
+            <div class="campo">
+                <label class="nome" for="senhatxt">Senha</label> <br>
+                <input type="password" name="" id="senhatxt" minlength="5" required>
+            </div>
 
-                <input id="botao-login" type="submit" value="Login"> <br>
-                <button>Esqueci a senha</button>
-            </form>
-        </div>
+            <input id="botao-login" type="submit" value="Login"> <br>
+            <input id="botao-senha" type="button" value="Esqueci a senha">
+
+        </form>
+    </div>
+
+    <div class="botao-escuro">
+        <button class="escuro">Modo escuro</button>
+    </div>
 
 </body>
 </html>

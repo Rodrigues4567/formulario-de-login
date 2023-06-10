@@ -5,33 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rodrigues Calçados</title>
+
     <link rel="stylesheet" href="estilos/style.css">
+
+    <link rel="stylesheet" href="estilos/style-mq.css" media="screen and (min-width: 1000px)">
+
 </head>
 <body>
-    <h1>Faça o seu Login</h1>
+    <main>
+        <h1>Faça o seu Login</h1>
+    
+        <div id="formulario">
+            <form action="" method="post" autocomplete="on">
 
-    <div id="formulario">
-        <form action="" method="post" autocomplete="on">
+                <div class="campo">
+                    <label class="nome" for="emailtxt">E-mail</label> <br>
+                    <input type="email" name="" id="emailtxt" autocomplete="email" required>
+                </div>
 
-            <div class="campo">
-                <label class="nome" for="emailtxt">E-mail</label> <br>
-                <input type="email" name="" id="emailtxt" autocomplete="email" required>
-            </div>
+                <div class="campo">
+                    <label class="nome" for="senhatxt">Senha</label> <br>
+                    <input type="password" name="" id="senhatxt" minlength="5" required>
+                </div>
 
-            <div class="campo">
-                <label class="nome" for="senhatxt">Senha</label> <br>
-                <input type="password" name="" id="senhatxt" minlength="5" required>
-            </div>
+                <input id="botao-login" type="submit" value="Login"> <br>
+                <input id="botao-senha" type="button" value="Esqueci a senha">
 
-            <input id="botao-login" type="submit" value="Login"> <br>
-            <input id="botao-senha" type="button" value="Esqueci a senha">
+            </form>
+        </div>
 
-        </form>
-    </div>
-
-    <div class="botao-escuro">
-        <button class="escuro">Modo escuro</button>
-    </div>
+        <div class="botao-escuro">
+            <button class="escuro">Modo escuro</button>
+        </div>
+    </main>
 
     <script src="main.js"></script>
 

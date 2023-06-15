@@ -1,8 +1,15 @@
 
+@font-face {
+    font-family: 'padrao';
+    src: url('../fonts/Inter/static/Inter-Medium.ttf');
+}
+
 * {
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+    font-family: 'padrao', sans-serif;
+    font-weight: normal;
 }
 
 body {
@@ -18,4 +25,25 @@ body {
     height: 85vh;
     display: flex;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.295);
+}
+
+.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    background-color: rgb(8, 218, 218);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    text-align: center;
+}
+
+.formulario header {
+    margin-bottom: 40px;
 }

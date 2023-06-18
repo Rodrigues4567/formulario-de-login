@@ -25,22 +25,24 @@
             <div class="inputs">
                 <form action="#" method="post" autocomplete="on">
 
-                    <div class="email">
-                        <label for="email">E-mail</label>
-                        <input type="email" name="" id="email" required>
+                    <div class="input-box">
+                        <label class="input-title" for="email">E-mail</label>
+                        <input type="email" name="" id="email" placeholder="Digite seu e-mail" required>
                     </div>
 
-                    <div class="senha">
-                        <label for="senha">Senha</label>
-                        <input type="password" name="" id="senha" required>
+                    <div class="input-box">
+                        <label class="input-title" for="senha">Senha</label>
+                        <input type="password" name="" id="senha" placeholder="Digite sua senha" required>
                     </div>
 
-                    <div class="botao-login">
-                        <input type="submit" value="Login">
-                    </div>
+                    <div class="botoes">
+                        <div class="botao-login">
+                            <input id="input-button-login" class="input-button" type="submit" value="Login">
+                        </div>
 
-                    <div class="botao-cadastre">
-                        <button>Cadastre-se</button>
+                        <div class="botao-cadastre">
+                            <button class="input-button">Cadastre-se</button>
+                        </div>
                     </div>
 
                 </form>

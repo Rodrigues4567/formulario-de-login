@@ -18,6 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: antiquewhite;
 }
 
 .container {
@@ -25,6 +26,7 @@ body {
     height: 85vh;
     display: flex;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.295);
+    background-color: white;
 }
 
 .imagem {
@@ -32,7 +34,7 @@ body {
     justify-content: center;
     align-items: center;
     width: 60%;
-    background-color: rgb(8, 218, 218);
+    background-color: rgb(13, 223, 223);
 }
 
 .formulario {
@@ -46,6 +48,7 @@ body {
 
 .formulario header {
     margin-bottom: 49px;
+    font-size: 1.2rem;
 }
 
 .input-title {
@@ -62,8 +65,19 @@ body {
     margin: 5px 0px;
     padding: 10px 30px;
     border: 1px solid black;
-    border-radius: 10px;
+    border-radius: 8px;
     font-size: 1rem;
+}
+
+a {
+    display: flex;
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #3e3996;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .botoes {
